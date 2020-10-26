@@ -9,8 +9,3 @@ site = "https://ifconfig.co/asn"
 response = requests.get(url=site)
 print(f"HTTP: {response.status_code}")
 print(f"ASN: {response.text}")
-
-site = "https://ifconfig.co/asn_org"
-response = requests.get(url=site)
-print(f"HTTP: {response.status_code}")
-print(f"ASN ORG: {response.text}")
